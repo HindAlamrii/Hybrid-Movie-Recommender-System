@@ -56,6 +56,16 @@ A hybrid recommendation pipeline was developed to improve performance:
 
 ---
 
+## 📁 Project Structure
+
+- notebooks/ → end-to-end pipeline and analysis  
+- src/ → modular code for preprocessing and models  
+- data/ → MovieLens dataset (excluded from repo)  
+- outputs/ → evaluation results and visualizations  
+- requirements.txt → required libraries
+
+---
+
 ## ⚠️ Important Note
 The NCF model is implemented as a baseline and can be further improved with proper training and tuning.
 
